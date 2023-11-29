@@ -4,12 +4,9 @@ import styles from './Buttons.module.css';
 // $FlowFixMe
 import CopyIcon from '-!svg-react-loader!./copy.svg';
 // $FlowFixMe
-import TweetIcon from '-!svg-react-loader!./twitter.svg';
-// $FlowFixMe
 import GitHubIcon from '-!svg-react-loader!./github.svg';
 import * as React from 'react';
 
-const TWEET_URL = 'https://twitter.com/intent/tweet';
 
 type Props = {
   text: string
@@ -34,8 +31,6 @@ export default class Buttons extends React.Component<Props> {
   };
 
   render() {
-    const encoded = encodeURIComponent(this.props.text);
-    const url = `${TWEET_URL}?text=${encoded}`;
     return (
       <div className={styles.buttons}>
         <div className={styles.actions}>
@@ -43,10 +38,6 @@ export default class Buttons extends React.Component<Props> {
             <CopyIcon />
             Copy
           </button>
-          <a href={url} className={styles.tweet}>
-            <TweetIcon />
-            Tweet
-          </a>
         </div>
 
         <div className={styles.footer}>
