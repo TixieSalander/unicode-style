@@ -51,10 +51,10 @@ export default class Buttons extends React.Component<Props> {
 
         <a
           className={styles.github}
-          href="https://github.com/ekmartin/unicode-style"
+          href="https://github.com/TixieSalander/unicode-style"
         >
           <GitHubIcon /> unicode-style
-        </a>
+        </a>&nbsp;• Hosted and forked by Tixie
       </div>
     );
   }

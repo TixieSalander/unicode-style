@@ -2,7 +2,7 @@
   "name": "unicode-style",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://unicode.style",
+  "homepage": "https://unicode.tixie.name",
   "dependencies": {
     "classnames": "^2.2.6",
     "draft-js": "^0.10.5",

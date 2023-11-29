@@ -6,7 +6,7 @@ export default function Header() {
     <h1>
       <span>unicode</span>
       <span style={{ color: '#05f' }}>.</span>
-      <i>style</i>
+      <i>tixie.name</i>
     </h1>
   );
 }
